@@ -52,3 +52,26 @@ Y ejecutamos el script:
 ```
 python3 Script.py
 ```
+# Mejora Del Codigo 
+
+•	Como primer cambio fue quitar la librería shutil.
+
+•	Además de también reducir líneas de código declarando las carpetas temporal y libros, en vez de hacerlo uno por uno declare las dos juntas
+
+•	Realice dentro de una función llamada obtener_enlaces_validos, la solicitud http a la página y a la misma función pedir como parámetros los url´s de la página el base_url y el main_url.
+
+•	Añadi con ciertos parámetros los enlaces que han sido validados y los retornamos en la misma función.
+
+•	Cree otro método llamado Descargar_imagenes el cual lleva como parámetros la url base y la extensión validada de la imagen que se descargaran de cada url.
+
+•	En la misma función coloque el procedimiento donde se crearán las subcarpetas donde contendrán las imágenes de los libros correspondientes al url del libro en cuestión, además de también todas las consultas y llamadas del url y carpetas del proyecto.
+
+•	Dentro de un if ingrese los parámetros de base_url, main_url, y un join del url que será la respectiva para cada libro de la pagina.
+
+•	Al igual de las variables aquí mismo declare las 3 funciones de arriba.
+
+Para probarlo ingresa en tu terminal la siguiente instruccion
+
+```
+python3 MejoraCodigo.py
+```
