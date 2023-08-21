@@ -52,6 +52,11 @@ Y ejecutamos el script:
 ```
 python3 Script.py
 ```
+# Calificacion 
+9/10 el script hace lo que tiene que hacer pero estaria mejor que pusieran un indicador de que esta haciendo
+
+o en que parte del proceso se encuentra. 
+
 # Mejora Del Codigo 
 
 •	Como primer cambio fue quitar la librería shutil.
